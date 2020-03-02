@@ -1,14 +1,15 @@
 # Conan simple example to use my own package
 
-1) Run command `conan search myPackage` to view package
-```shell
-$ conan search myPackage
-Existing package recipes:
-
-myPackage/0.1
+## Run
+```bash
+build.bat
 ```
 
-2) Create conanfile.txt
+## Usefull commands
+1) Run command `conan search myPackage` to view package
+```shell
+conan search myPackage
+```
 
 2) Install package
 ```shell
@@ -19,7 +20,3 @@ conan install . --install-folder=build
 ```shell
 conan get myPackage/0.1
 ```
-
-4) Build and run package
-build.bat
-
