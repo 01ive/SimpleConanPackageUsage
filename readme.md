@@ -19,3 +19,7 @@ conan install . --install-folder=build
 ```shell
 conan get myPackage/0.1
 ```
+
+4) Build and run package
+build.bat
+
