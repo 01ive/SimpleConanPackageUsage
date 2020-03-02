@@ -1,3 +1,5 @@
 conan*
 !conanfile.txt
 graph_info.json
+.vscode
+build

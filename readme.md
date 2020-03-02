@@ -12,7 +12,7 @@ myPackage/0.1
 
 2) Install package
 ```shell
-conan install .
+conan install . --install-folder=build
 ```
 
 3) View package info
